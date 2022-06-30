@@ -143,84 +143,75 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="py-2" href="#" aria-label="Product">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
-                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img"
-                    viewBox="0 0 24 24">
-                    <title>Product</title>
-                    <circle cx="12" cy="12" r="10"></circle>
-                    <path
-                        d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94">
-                    </path>
-                </svg>
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="py-2" href="#" aria-label="Product">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+          stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img"
+          viewBox="0 0 24 24">
+          <title>Product</title>
+          <circle cx="12" cy="12" r="10"></circle>
+          <path
+            d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94">
+          </path>
+        </svg>
+      </a>
+      <a class="navbar-brand" href="#"><b>THE CAR BROS</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active " aria-current="page" href="/tcb/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/tcb/about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Top Brands
             </a>
-            <a class="navbar-brand" href="#"><b>THE CAR BROS</b></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Aston Martin</a></li>
+              <li><a class="dropdown-item" href="#">Ferrari</a></li>
+              <li><a class="dropdown-item" href="#">Lamborghini</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              
+              <li><a class="dropdown-item" href="/tcb/feedback.html">Feedback <i class="bi bi-emoji-smile"></i>&nbsp;<i
+                    class="bi bi-emoji-frown-fill"></i></a></li>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="/tcb/contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Locations
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item"
+                  href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj54Ln33Zr4AhX87TgGHQJDBNAQFnoECBAQAQ&url=https%3A%2F%2Fwww.bugatti.com%2Fmedia%2Fnews%2F2019%2Fbugatti-opens-a-new-showroom-in-paris%2F&usg=AOvVaw2LTzUj8swFQ2yOzxYjokKG"><i
+                    class="bi bi-geo-alt-fill"></i>Paris,France</a></li>
+              <li><a class="dropdown-item"
+                  href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjLhI2R3pr4AhVMxTgGHXJJADQQFnoECEYQAQ&url=https%3A%2F%2Fwww.thecarcentreuk.com%2F&usg=AOvVaw0pmODckehY6_-7m0FNnJKi"><i
+                    class="bi bi-geo-alt-fill"></i>Manchester,Uk</a></li>
+              <li><a class="dropdown-item"
+                  href="https://www.google.com/search?q=big+boys+toys+mumbai&client=firefox-b-d&hl=en&biw=1366&bih=643&sxsrf=ALiCzsZGXWS5rwFUUJ8oozAdOPLa1xwLMw%3A1654584133790&ei=RfOeYv_nL5nW4-EPmeKngA4&gs_ssp=eJzj4tVP1zc0TDMzqLJIy00yYLRSNagwTko1T7ZMMjFJSkk2S002tjKosDQ1MLI0TjIySk6yNDYysfQSScpMV0jKryxWKAERuaW5SYmZADzMFsY&oq=bi&gs_lcp=Cgdnd3Mtd2l6EAEYATIECCMQJzIKCC4QxwEQrwEQJzIECCMQJzIECAAQQzIECAAQQzIECAAQQzIFCAAQkQIyBAgAEEMyCggAELEDEIMBEEMyCwgAEIAEELEDEIMBOgoIABBHELADEMkDOggIABCSAxCwAzoHCAAQRxCwAzoHCAAQsAMQQzoKCC4QxwEQrwEQQzoKCC4QxwEQowIQQzoRCC4QgAQQsQMQgwEQxwEQ0QNKBAhBGABKBAhGGABQ8QJY3AVgqA1oAXABeACAAbYCiAGfBJIBBTItMS4xmAEAoAEByAEKwAEB&sclient=gws-wiz#"><i
+                    class="bi bi-geo-alt-fill"></i>Mumbai,India</a></li>
+              <li><a class="dropdown-item" href="#"><i class="bi bi-geo-alt-fill"></i>Frankfrut,Germany&nbsp;<span
+                    class="badge bg-success">soon</span>
+                </a></li>
+            </ul>
 
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Top Brands
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item"
-                                    href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwimv8DniJv4AhWL9zgGHU9eB_sQFnoECAMQAQ&url=https%3A%2F%2Fwww.astonmartin.com%2Fen%2F&usg=AOvVaw0ywp3584DA-8M8zZrXJ6-J">Aston
-                                    Martin</a></li>
-                            <li><a class="dropdown-item"
-                                    href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwizuK3xiJv4AhXg6zgGHWbECTQQFnoECAUQAQ&url=https%3A%2F%2Fwww.ferrari.com%2F&usg=AOvVaw2RQt7Sy_it1H6FKBnJhs-0">Ferrari</a>
-                            </li>
-                            <li><a class="dropdown-item"
-                                    href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjk56T4iJv4AhVZ7TgGHfpQCU4QFnoECAMQAQ&url=https%3A%2F%2Fwww.lamborghini.com%2F&usg=AOvVaw19gcFF8MpeUEkeH1cKsGMk">Lamborghini</a>
-                            </li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                          
-                            <li><a class="dropdown-item" href="feedback.html">Feedback <i
-                                        class="bi bi-emoji-smile"></i>&nbsp;<i class="bi bi-emoji-frown-fill"></i></a>
-                            </li>
-                        </ul>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Locations
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item"
-                                    href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj54Ln33Zr4AhX87TgGHQJDBNAQFnoECBAQAQ&url=https%3A%2F%2Fwww.bugatti.com%2Fmedia%2Fnews%2F2019%2Fbugatti-opens-a-new-showroom-in-paris%2F&usg=AOvVaw2LTzUj8swFQ2yOzxYjokKG"><i
-                                        class="bi bi-geo-alt-fill"></i>Paris,France</a></li>
-                            <li><a class="dropdown-item"
-                                    href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjLhI2R3pr4AhVMxTgGHXJJADQQFnoECEYQAQ&url=https%3A%2F%2Fwww.thecarcentreuk.com%2F&usg=AOvVaw0pmODckehY6_-7m0FNnJKi"><i
-                                        class="bi bi-geo-alt-fill"></i>Manchester,Uk</a></li>
-                            <li><a class="dropdown-item"
-                                    href="https://www.google.com/search?q=big+boys+toys+mumbai&client=firefox-b-d&hl=en&biw=1366&bih=643&sxsrf=ALiCzsZGXWS5rwFUUJ8oozAdOPLa1xwLMw%3A1654584133790&ei=RfOeYv_nL5nW4-EPmeKngA4&gs_ssp=eJzj4tVP1zc0TDMzqLJIy00yYLRSNagwTko1T7ZMMjFJSkk2S002tjKosDQ1MLI0TjIySk6yNDYysfQSScpMV0jKryxWKAERuaW5SYmZADzMFsY&oq=bi&gs_lcp=Cgdnd3Mtd2l6EAEYATIECCMQJzIKCC4QxwEQrwEQJzIECCMQJzIECAAQQzIECAAQQzIECAAQQzIFCAAQkQIyBAgAEEMyCggAELEDEIMBEEMyCwgAEIAEELEDEIMBOgoIABBHELADEMkDOggIABCSAxCwAzoHCAAQRxCwAzoHCAAQsAMQQzoKCC4QxwEQrwEQQzoKCC4QxwEQowIQQzoRCC4QgAQQsQMQgwEQxwEQ0QNKBAhBGABKBAhGGABQ8QJY3AVgqA1oAXABeACAAbYCiAGfBJIBBTItMS4xmAEAoAEByAEKwAEB&sclient=gws-wiz#"><i
-                                        class="bi bi-geo-alt-fill"></i>Mumbai,India</a></li>
-                            <li><a class="dropdown-item  disabled" href="#"><i
-                                        class="bi bi-geo-alt-fill"></i>Frankfrut,Germany&nbsp;<span
-                                        class="badge bg-success">soon</span>
-                                </a></li>
-                        </ul>
+          </li>
 
-                    </li>
-
-                </ul>
+        </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Search Car Models" aria-label="Search">
                     <button class="btn btn-outline-light type=" submit">Search</button>
