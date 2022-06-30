@@ -1,0 +1,721 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Kannada&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+
+
+    <title>The Car Bros</title>
+    <style>
+        button{
+            cursor: pointer;
+        }
+        b {
+            font-family: 'Tiro Kannada', serif;
+        }
+
+        .py-2 {
+            padding: 0px 3px;
+
+        }
+
+        .hold {
+            padding: 0px 100px;
+        }
+
+        .hold1 {
+            padding: 0px 125px;
+        }
+
+        .hold2 {
+            padding: 0px 130px;
+        }
+
+        .pagination {
+            padding: 10px 440px;
+        }
+
+        .page-item {
+            padding: 5px 10px;
+
+        }
+
+        .py-5 {
+            margin-top: -60px;
+
+
+
+        }
+
+        h1 {
+            font-family: 'Libre Baskerville', serif;
+        }
+
+        .hold3 {
+            padding: 0px 100px;
+        }
+
+        .hold4 {
+            padding: 0px 105px;
+        }
+
+        .hold5 {
+            padding: 0px 120px;
+        }
+
+        .hold6 {
+            padding: 0px 90px;
+        }
+
+        .hold7 {
+            padding: 0px 125px;
+        }
+
+        .hold8 {
+            padding: 0px 145px;
+        }
+
+        .container123 {
+            padding: 16px 0px;
+            margin-left: 100px;
+
+        }
+
+        p.lead {
+            font-family: 'Amiri', serif;
+        }
+
+        p.card-text {
+            font-family: 'Prata', serif;
+        }
+
+        footer {
+            background-color: rgb(255, 255, 255);
+        
+            padding: 44px 475px;
+            margin: 0px -117px;
+        }
+
+        .loost {
+            padding: 0px 100px;
+        }
+
+        .follow {
+            padding: 0px 100px;
+        }
+
+        .modalss {
+            padding: 10px 5px;
+        }
+        .modal-body{
+            background-color:rgb(255, 217, 187)
+        }
+       
+        .carousel-item{
+            z-index: -1;
+            opacity: 0.90;
+        }
+        .album
+        {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="py-2" href="#" aria-label="Product">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img"
+                    viewBox="0 0 24 24">
+                    <title>Product</title>
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path
+                        d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94">
+                    </path>
+                </svg>
+            </a>
+            <a class="navbar-brand" href="#"><b>THE CAR BROS</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Top Brands
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item"
+                                    href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwimv8DniJv4AhWL9zgGHU9eB_sQFnoECAMQAQ&url=https%3A%2F%2Fwww.astonmartin.com%2Fen%2F&usg=AOvVaw0ywp3584DA-8M8zZrXJ6-J">Aston
+                                    Martin</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwizuK3xiJv4AhXg6zgGHWbECTQQFnoECAUQAQ&url=https%3A%2F%2Fwww.ferrari.com%2F&usg=AOvVaw2RQt7Sy_it1H6FKBnJhs-0">Ferrari</a>
+                            </li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjk56T4iJv4AhVZ7TgGHfpQCU4QFnoECAMQAQ&url=https%3A%2F%2Fwww.lamborghini.com%2F&usg=AOvVaw19gcFF8MpeUEkeH1cKsGMk">Lamborghini</a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                          
+                            <li><a class="dropdown-item" href="feedback.html">Feedback <i
+                                        class="bi bi-emoji-smile"></i>&nbsp;<i class="bi bi-emoji-frown-fill"></i></a>
+                            </li>
+                        </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Locations
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item"
+                                    href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj54Ln33Zr4AhX87TgGHQJDBNAQFnoECBAQAQ&url=https%3A%2F%2Fwww.bugatti.com%2Fmedia%2Fnews%2F2019%2Fbugatti-opens-a-new-showroom-in-paris%2F&usg=AOvVaw2LTzUj8swFQ2yOzxYjokKG"><i
+                                        class="bi bi-geo-alt-fill"></i>Paris,France</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjLhI2R3pr4AhVMxTgGHXJJADQQFnoECEYQAQ&url=https%3A%2F%2Fwww.thecarcentreuk.com%2F&usg=AOvVaw0pmODckehY6_-7m0FNnJKi"><i
+                                        class="bi bi-geo-alt-fill"></i>Manchester,Uk</a></li>
+                            <li><a class="dropdown-item"
+                                    href="https://www.google.com/search?q=big+boys+toys+mumbai&client=firefox-b-d&hl=en&biw=1366&bih=643&sxsrf=ALiCzsZGXWS5rwFUUJ8oozAdOPLa1xwLMw%3A1654584133790&ei=RfOeYv_nL5nW4-EPmeKngA4&gs_ssp=eJzj4tVP1zc0TDMzqLJIy00yYLRSNagwTko1T7ZMMjFJSkk2S002tjKosDQ1MLI0TjIySk6yNDYysfQSScpMV0jKryxWKAERuaW5SYmZADzMFsY&oq=bi&gs_lcp=Cgdnd3Mtd2l6EAEYATIECCMQJzIKCC4QxwEQrwEQJzIECCMQJzIECAAQQzIECAAQQzIECAAQQzIFCAAQkQIyBAgAEEMyCggAELEDEIMBEEMyCwgAEIAEELEDEIMBOgoIABBHELADEMkDOggIABCSAxCwAzoHCAAQRxCwAzoHCAAQsAMQQzoKCC4QxwEQrwEQQzoKCC4QxwEQowIQQzoRCC4QgAQQsQMQgwEQxwEQ0QNKBAhBGABKBAhGGABQ8QJY3AVgqA1oAXABeACAAbYCiAGfBJIBBTItMS4xmAEAoAEByAEKwAEB&sclient=gws-wiz#"><i
+                                        class="bi bi-geo-alt-fill"></i>Mumbai,India</a></li>
+                            <li><a class="dropdown-item  disabled" href="#"><i
+                                        class="bi bi-geo-alt-fill"></i>Frankfrut,Germany&nbsp;<span
+                                        class="badge bg-success">soon</span>
+                                </a></li>
+                        </ul>
+
+                    </li>
+
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search Car Models" aria-label="Search">
+                    <button class="btn btn-outline-light type=" submit">Search</button>
+                </form>
+                <div class="modalss">
+                    <button class="btn btn-danger" type="submit" data-bs-toggle="modal"
+                        data-bs-target="#LogInModal">LogIn</button>
+                    <button class="btn btn-danger" type="submit" data-bs-toggle="modal"
+                        data-bs-target="#SignUpModal">SignUp</button>
+                </div>
+            </div>
+
+
+        </div>
+    </nav>
+
+    <!-- Button trigger modal -->
+
+
+    <!-- logInModal -->
+    <div class="modal fade" id="LogInModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="LogInModalLabel">Already Have An Acoount? LogIn To TCG Blogs!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="sig.php" method="post">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email"
+                                aria-describedby="emailHelp" name="email">
+
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" name="password">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">LogIn</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Button trigger modal -->
+
+
+    <!-- sign up Modal -->
+    <div class="modal fade" id="SignUpModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="SignUpModalLabel">Newbie Here? Lets Create Your Account!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form  action="log.php" method="post">
+                        <div class="mb-3">
+                            <div class="nameenter">
+                                <label for="namee" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="name" name="name">
+                                <br>
+                            </div>
+                          
+
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <label for="inputPassword5" class="form-label">Password</label>
+                        <input type="password" id="password" name="password" class="form-control"
+                            aria-describedby="passwordHelpBlock">
+                        <div id="passwordHelpBlock" class="form-text">
+                            Your password must be 8-20 characters long, contain letters and numbers, and must not
+                            contain spaces, special characters, or emoji.
+                        </div>
+                        <label for="inputPassword5" class="form-label">Confirm Your Password</label>
+                        <input type="password" id="inputPassword5" class="form-control"
+                            aria-describedby="passwordHelpBlock">
+                       
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check Me Out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">SignUp</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img  src="2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2><strong>Welcome To TCB</strong></h2>
+                    <p><strong>Buy,Sell,Rent.The Best Luxury Car Showrooms!</strong></p>
+                    <button type="button" class="btn btn-primary">Royal</button>
+                    <button type="button" class="btn btn-success">Luxury</button>
+                    <button type="button" class="btn btn-danger">Vintage</button>
+
+
+
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <img class="itemm" src="34566.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2><strong>Estd. 1885</strong></h2>
+                    <p><strong>137 Years Old & Most Trusted Origin From Paris!</strong> </p>
+                    <button type="button" class="btn btn-danger">Vintage</button>
+                    <button type="button" class="btn btn-primary">Royal</button>
+                    <button type="button" class="btn btn-success">Luxury</button>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="ferr.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2><strong>World Famous</strong></h2>
+                    <p><strong>Globally Reknowned For Best Luxury & Vintage Cars!</strong></p>
+                    <button type="button" class="btn btn-success">Luxury</button>
+                    <button type="button" class="btn btn-danger">Vintage</button>
+                    <button type="button" class="btn btn-primary">Royal</button>
+
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <main>
+
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light">Trending Models</h1>
+                    <p class="lead text-muted">Some Of The Few Hot Car's Loved Not Only By Customers But Also The
+                        Favourites Of AutoMotive Professionals & Car Doctors!!!</p>
+                    <p class="lead text-muted">Check Out Below!</p>
+
+                </div>
+            </div>
+        </section>
+
+        <div class="album py-5 bg-dark">
+            <div class="container">
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img width="100%" height="225" src="aston1.jpg" alt="">
+                            <p class="hold"><strong>Aston Martin DB11</strong></p>
+
+                            <div class="card-body">
+                                <p class="card-text">The undeniably exotic 2022 Aston Martin DB11 toes the line between
+                                    sports car and grand tourer. Its long, low, and wide body turns heads whether
+                                    configured with the fixed roof or the retractable soft top....</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a
+                                            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjn3JKCnJn4AhUun2MGHQ5gAf0QFnoECAUQAQ&url=https%3A%2F%2Fwww.astonmartin.com%2Fen%2Fmodels%2Fdb11&usg=AOvVaw2E2vfVciJALh6H42Dh3-59"><button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-primary">Details</button></a>
+                                        <button type="button" class="btn btn-sm btn-outline-success">Buy</button>
+                                        <button type="button" class="btn btn-sm btn-outline-danger">Rent</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img width="100%" height="225" src="roma2.jpg" alt="">
+                            <p class="hold1"><strong>Ferrari Roma</strong></p>
+
+                            <div class="card-body">
+                                <p class="card-text">This is Ferrari’s, erm, compact GT, variously described by the
+                                    company’s marketing people as ‘an F1 car in evening attire’ and a 2020 reboot for
+                                    that ineffably Italian idea of la dolce vita.....</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a
+                                            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwil_pPinJn4AhXo8jgGHSE1CRAQFnoECD4QAQ&url=https%3A%2F%2Fwww.ferrari.com%2Fen-EN%2Fauto%2Fferrari-roma&usg=AOvVaw3XopUHWag76wHGtYhWWfE3"><button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-primary">Details</button></a>
+                                        <button type="button" class="btn btn-sm btn-outline-success">Buy</button>
+                                        <button type="button" class="btn btn-sm btn-outline-danger">Rent</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img width="100%" height="225" src="p333.jpg">
+                            <p class="hold2"><strong>Porsche 911</strong></p>
+
+
+                            <div class="card-body">
+                                <p class="card-text">The Porsche 911 (pronounced Nine Eleven or in German: Neunelfer) is
+                                    a two-door 2+2 high performance rear-engined sports car. It has a rear-mounted
+                                    flat-six engine and originally a torsion bar suspension.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a
+                                            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjZ3sfqoZn4AhVZ9zgGHdJJAeIQFnoECAwQAQ&url=https%3A%2F%2Fwww.porsche.com%2Finternational%2Fmodels%2F911%2F&usg=AOvVaw2Ydar8EA5poaO7hLI8wnRa"><button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-primary">Details</button></a>
+                                        <button type="button" class="btn btn-sm btn-outline-success">Edit</button>
+                                        <button type="button" class="btn btn-sm btn-outline-danger">Edit</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img width="100%" height="225" src="rr1.jpg">
+                            <p class="hold3"><strong>Rolls Royce Ghost</strong></p>
+                            <div class="card-body">
+                                <p class="card-text">Rolls’ proprietary alumunium spaceframe underpins the Ghost, fully
+                                    distancing the new car from the Munich mothership.It's One Of The Most Prestige &
+                                    .... </p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a
+                                            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjEzt2-u5r4AhWN63MBHaulCfYQFnoECBYQAQ&url=https%3A%2F%2Fwww.rolls-roycemotorcars.com%2Fen_GB%2Fshowroom%2Fghost-in-detail.html&usg=AOvVaw2mDL2aXB5iWxA5D8UmSnPI"><button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-primary">Details</button></a>
+                                        <button type="button" class="btn btn-sm btn-outline-success">Buy</button>
+                                        <button type="button" class="btn btn-sm btn-outline-danger">Rent</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img width="100%" height="225" src="m.webp">
+                            <p class="hold4"><strong>Mercedes-AMG GT</strong></p>
+
+                            <div class="card-body">
+                                <p class="card-text">Every Mercedes-AMG GT has a twin-turbo 4.0-liter V-8 and a
+                                    seven-speed dual-clutch automatic, but depending on which model you select, the
+                                    hand-built engine....</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a
+                                            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiX7LruwJr4AhUQaGwGHfwtByEQFnoECCMQAQ&url=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2Fvehicles%2Fpassenger-cars%2Famg-gt%2F&usg=AOvVaw0HMjKzXI-twTkMY48L629x"><button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-primary">Details</button></a>
+                                        <button type="button" class="btn btn-sm btn-outline-success">Buy</button>
+                                        <button type="button" class="btn btn-sm btn-outline-danger">Rent</button>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img width="100%" height="225" src="b3.jpg">
+                            <p class="hold5"><strong>Buggati Veyron</strong></p>
+
+                            <div class="card-body">
+                                <p class="card-text">he Bugatti Veyron EB 16.4 is a mid-engine sports car, designed and
+                                    developed in France by the Volkswagen Group and Bugatti and manufactured in
+                                    Molsheim...</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a
+                                            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiwvfGbwpr4AhVKR2wGHSFGDb0QFnoECCoQAQ&url=https%3A%2F%2Fwww.bugatti.com%2Fmodels%2Fveyron-models%2Fveyron-164-super-sport%2F&usg=AOvVaw2uUMnh7ZCut_9Eq9F1MT6E"><button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-primary">Details</button></a>
+                                        <button type="button" class="btn btn-sm btn-outline-success">Buy</button>
+                                        <button type="button" class="btn btn-sm btn-outline-danger">Rent</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img width="100%" height="225" src="l1.jpg">
+                            <p class="hold6"><strong>Lamborghini Gallardo</strong></p>
+
+                            <div class="card-body">
+                                <p class="card-text">The Lamborghini Gallardo is a sports car built by the Italian
+                                    automotive manufacturer Lamborghini from 2003 to 2013. It is best-selling
+                                    model.Named after a famous breed of fighting bull...</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a
+                                            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiqu-uIxpr4AhWE63MBHfBCDqkQFnoECAcQAQ&url=https%3A%2F%2Fwww.lamborghini.com%2Fen-en%2Fhistory%2Fgallardo-2003&usg=AOvVaw0bfFdSiQf8Iuw48yTYeQyD"><button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-primary">Details</button></a>
+                                        <button type="button" class="btn btn-sm btn-outline-success">Buy</button>
+                                        <button type="button" class="btn btn-sm btn-outline-danger">Rent</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img width="100%" height="225" src="b2.webp">
+                            <p class="hold7"><strong>BMW 3 Series</strong></p>
+
+
+                            <div class="card-body">
+                                <p class="card-text">Sporty, reliable, and successful: For over 40 years, the BMW 3
+                                    Series has stood for dynamic driving pleasure like no other vehicle. Today the
+                                    success of the BMW 3 Series is one of the reasons....</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a
+                                            href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjGvMq4yJr4AhVDJCsKHRSNCWcYABABGgJzZg&ohost=www.google.com&cid=CAESbeD2VtC1NEUcFNk0TbxNC8ndUOPj1wlmMaJv32IGte0YRA34xVfmw_e4_WEt2S6brnWALqCuSRyQ7q3ozuiPsTeUQiVJkweha0EgmK8_M3OQ862616ip5H7JINlexCC7mVD5gNZfGqJPngH-Uoo&sig=AOD64_1G6FQSrRWtwvsxH8N9E1bnAUEXnw&adurl&ved=2ahUKEwi4pLy4yJr4AhXv-TgGHa4kDMEQqyQoAHoECAIQBw"><button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-primary">Details</button></a>
+                                        <button type="button" class="btn btn-sm btn-outline-success">Buy</button>
+                                        <button type="button" class="btn btn-sm btn-outline-danger">Rent</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img width="100%" height="225" src="a3.jpg">
+                            <p class="hold8"><strong>Audi A3</strong></p>
+
+                            <div class="card-body">
+                                <p class="card-text">The redesigned 2022 Audi A3 has updated styling , as well as a new
+                                    powertrain lineup, receiving a horsepower boost.Includes lane departure warning, a
+                                    larger touch screen a digital gauge cluster, and...</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a
+                                            href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjq_qGgy5r4AhXU7GEKHboLBZMQFnoECC0QAQ&url=https%3A%2F%2Fwww.audiusa.com%2Fus%2Fweb%2Fen%2Fmodels%2Fa3%2Fa3%2F2022%2Foverview.html&usg=AOvVaw126jtS618liE5aU3rvVsvE"><button
+                                                type="button"
+                                                class="btn btn-sm btn-outline-primary">Details</button></a>
+                                        <button type="button" class="btn btn-sm btn-outline-success">Buy</button>
+                                        <button type="button" class="btn btn-sm btn-outline-danger">Rent</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination">
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+
+
+                    <div class="container123">
+                        <p class="float-end mb-1">
+
+                            <a href="#"><button type="button" class="btn btn-warning"><strong>Back To Top</strong> <i
+                                        class="bi bi-arrow-up-circle-fill"></i></button>
+                            </a>
+
+                        </p>
+                    </div>
+                </div>
+
+                
+
+
+
+                <footer class="blog-footer">
+                    <p><i>Blog Website Built For 'The Car Bros'</a> by <a href="https://www.linkedin.com/in/mangalam-mall-580470216
+                        ">Mangalam Mall</a></i>.</p>
+                    <hr class="dropdown-divider">
+                    <p class="loost"><strong>©&nbsp; 2022 The Car Bros,INC</strong></p>
+                    <hr class="dropdown-divider">
+                    <p class="follow"><i>Follow Us:&nbsp;&nbsp;<a
+                                href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjXhZWL55r4AhVH8DgGHS-7BQEQFnoECAcQAQ&url=https%3A%2F%2Fwww.instagram.com%2Fbigboytoyz_india%2F%3Fhl%3Den&usg=AOvVaw1nOxpRF9T6OzHSsNZ54BUu"><i
+                                    class="bi bi-instagram"></i></a></i>
+                        <i>&nbsp;&nbsp;<a
+                                href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjghN7b55r4AhWNxTgGHbm9B8sQFnoECAQQAQ&url=https%3A%2F%2Fwww.facebook.com%2FBBToyz%2F&usg=AOvVaw1axmx8g-5Y3DJRrpOP2Jok"><i
+                                    class="bi bi-facebook"></i></a></i>
+                        <i>&nbsp;&nbsp;<a
+                                href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi3t7_q55r4AhUP4jgGHX68A1wQFnoECAcQAQ&url=https%3A%2F%2Fin.linkedin.com%2Fcompany%2Fbigboytoyz&usg=AOvVaw06TmHLyPCbz20CDPQgY7mV"><i
+                                    class="bi bi-linkedin"></i></a></i>
+                    </p>
+
+
+                </footer>
+
+                <!-- Optional JavaScript; choose one of the two! -->
+
+                <!-- Option 1: Bootstrap Bundle with Popper -->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                    crossorigin="anonymous"></script>
+
+                <!-- Option 2: Separate Popper and Bootstrap JS -->
+                <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+    <?php
+    $db_hostname = "127.0.0.1";
+    $db_username = "root";
+    $db_password = "SunitaMall27@";
+    $db_name = "register";
+
+    $conn = mysqli_connect($db_hostname, $db_username, $db_password, $db_name);
+    if (!$conn) {
+        echo "Connection failed: " . mysqli_connect_error();
+        exit;
+    }
+
+    $email=$_POST['email'];
+    $password=$_POST['password'];
+
+    $sql ="SELECT * FROM login WHERE email='$email' AND password='$password'";
+    $result = mysqli_query($conn, $sql);
+    if (!$result) {
+        echo "Error: " . mysqli_error($conn);
+        exit;
+    }
+
+    $row = mysqli_fetch_assoc($result);
+    if ($row) {
+        echo "Hello " . $row['name'] . "<br/>";
+        
+        }
+        else{
+            echo "Login Failed!";
+        }
+        mysqli_close($conn);
+    ?>
+</body>
+
+</html>
