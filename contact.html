@@ -210,32 +210,29 @@
 
     <div class="container87">
         <h1>Contact Us&nbsp;<i class="bi bi-person-lines-fill"></i></h1>
-        <form>
+        <form action="contacts.php" method="post">
             <form class="row g-3">
                 <div class="col-md-6">
                     <label for="inputEmail4" class="form-label">Email:</label>
-                    <input type="email" class="form-control" id="inputEmail4">
+                    <input type="email" class="form-control" id="email" name="email">
                 </div>
-                <div class="col-md-6">
-                    <label for="inputPassword4" class="form-label">Password:</label>
-                    <input type="password" class="form-control" id="inputPassword4">
-                </div>
+                
                 <div class="col-12">
                     <label for="inputAddress" class="form-label">Address:</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                    <input type="text" class="form-control" id="address" name="address" placeholder="1234 Main St">
                 </div>
                 <div class="col-12">
                     <label for="inputAddress2" class="form-label">Address 2:</label>
-                    <input type="text" class="form-control" id="inputAddress2"
+                    <input type="text" class="form-control" id="address2" name="address2"
                         placeholder="Apartment, studio, or floor">
                 </div>
                 <div class="col-md-6">
                     <label for="inputCity" class="form-label">City:</label>
-                    <input type="text" class="form-control" id="inputCity">
+                    <input type="text" class="form-control" id="city" name="city">
                 </div>
                 <div class="col-md-4">
                     <label for="inputState" class="form-label">State:</label>
-                    <select id="inputState" class="form-select">
+                    <select id="state" name="state" class="form-select">
                         <option selected>Paris</option>
                         <option>Paris</option>
                         <option>Paris</option>
@@ -253,7 +250,7 @@
                 </div>
                 <div class="col-md-4">
                     <label for="inputState" class="form-label">Country:</label>
-                    <select id="inputState" class="form-select">
+                    <select id="country" name="country"  class="form-select">
                         <option selected>France</option>
                         <option>France</option>
                         <option>France</option>
@@ -282,51 +279,33 @@
 
                 &nbsp; &nbsp; &nbsp;
                 <div>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>Intrested In</option>
+                    <label for="inputAddress" class="form-label">Intrested In:</label>
+                    <select class="form-select" aria-label="Default select example" id="intrested" name="intrested">
+                       
                         <option value="1">Buying</option>
                         <option value="2">Selling</option>
                         <option value="3">Renting</option>
                     </select>
                 </div>
                 &nbsp; &nbsp; &nbsp;
-                <h6>Your's Nearby Location:</h6>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
-                        value="option1" checked>
-                    <label class="form-check-label" for="exampleRadios1">
-                        Paris,France
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
-                        value="option2">
-                    <label class="form-check-label" for="exampleRadios2">
-                        Manchester,Uk
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2"
-                        value="option2">
-                    <label class="form-check-label" for="exampleRadios2">
-                        Mumbai,India
-                    </label>
-                </div>
-
-                <div class="form-check">
-                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
-                        value="option3" disabled>
-                    <label class="form-check-label" for="exampleRadios3">
-                        Frankfrut,Germany
-                    </label>
+                
+                <div>
+                    <label for="inputAddress" class="form-label">NearBy Location:</label>
+                    <select class="form-select" aria-label="Default select example" id="location" name="location">
+                        
+                        <option value="1">Paris,France</option>
+                        <option value="2">Manchester,UK</option>
+                        <option value="3">Mumbai,India</option>
+                        <option value="3" disabled>Frankfrut,Germany</option>
+                    </select>
                 </div>
                 &nbsp;
 
                 <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">
+                    <label  class="form-label" >
                         <h6>Your Concern:</h6>
                     </label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" id="concern" name="concern"></textarea>
                 </div>
 
                 <button type="submit" class="btn btn-primary">Submit</button>
